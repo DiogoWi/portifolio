@@ -17,6 +17,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 #botaoMenu {
@@ -28,6 +29,10 @@ header {
     border-radius: 5px;
     width: 30px;
     height: 30px;
+}
+
+#botaoMenu ion-icon {
+    font-size: 30px;
 }
 
 #menu {
@@ -110,4 +115,53 @@ main {
     text-align: justify;
     text-indent: 20px;
     line-height: 25px;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-block: 100px;
+}
+
+.card {
+    background-color: #0F0F0F;
+    height: 340px;
+    width: 260px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-block: 25px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #171717;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 10px;
+}
+
+.botoes ion-icon {
+    font-size: 20px;
 }
