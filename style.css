@@ -12,7 +12,7 @@ body {
 header {
     background-color: #4B4B4B;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     position: sticky;
     top: 0;
@@ -29,6 +29,7 @@ header {
     border-radius: 5px;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 #botaoMenu ion-icon {
@@ -81,7 +82,6 @@ main {
 
 #home h1 {
     font-size: 40px;
-    width: 255px;
 }
 
 #home span {
@@ -92,10 +92,7 @@ main {
 #tecnologias {
     display: flex;
     gap: 10px;
-}
-
-#tecnologias img {
-    width: 40px;
+    height: 40px;
 }
 
 .imagem {
@@ -164,4 +161,56 @@ main {
 
 .botoes ion-icon {
     font-size: 20px;
+}
+
+#contato {
+    padding: 20px;
+}
+
+#contato h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#informacoes {
+    margin-block: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.informacao {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.icone {
+    display: flex;
+    background-color: #D9D9D9;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.icone ion-icon {
+    font-size: 40px;
+}
+
+.texto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4B4B4B;
+    text-align: center;
+    padding: 20px;
+}
+
+footer span {
+    display: block;
+    font-weight: bold;
+    margin-top: 3px;
 }
