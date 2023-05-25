@@ -102,7 +102,7 @@ main {
 #sobre {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 500px;
     padding: 20px;
     text-align: center;
 }
