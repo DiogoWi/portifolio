@@ -95,12 +95,18 @@ main {
     height: 40px;
 }
 
+#tecnologias img {
+    width: 40px;
+    height: 40px;
+}
+
 .imagem {
     display: none;
 }
 
 #sobre {
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 500px;
     padding: 20px;
@@ -116,10 +122,11 @@ main {
 
 #projetos {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 50px;
-    padding-block: 100px;
+    padding: 100px 30px;
 }
 
 .card {
@@ -157,6 +164,7 @@ main {
     border-radius: 5px;
     color: white;
     padding: 4px 10px;
+    cursor: pointer;
 }
 
 .botoes ion-icon {
@@ -165,6 +173,7 @@ main {
 
 #contato {
     padding: 20px;
+    background-color: #4B4B4B;
 }
 
 #contato h2 {
@@ -204,7 +213,7 @@ main {
 }
 
 footer {
-    background-color: #4B4B4B;
+    background-color: #0F0F0F;
     text-align: center;
     padding: 20px;
 }
@@ -213,4 +222,19 @@ footer span {
     display: block;
     font-weight: bold;
     margin-top: 3px;
+}
+
+@media screen and (min-width: 481px) {
+    #home h1 {
+        font-size: 55px;
+    }
+
+    #sobre h2 {
+        font-size: 30px;
+    }
+
+    #sobre p {
+        width: 440px;
+        font-size: 20px;
+    }
 }
