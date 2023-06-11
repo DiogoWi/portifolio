@@ -9,6 +9,8 @@ const opcoes = document.querySelectorAll('#menu a');
 
 for (let i = 0; i < opcoes.length; i++) {
     opcoes[i].addEventListener('click', function(){
-        nav.classList.toggle('ativado');
+        if(window.innerWidth <= 1024) {
+            nav.classList.toggle('ativado');
+        }
     });
 }
